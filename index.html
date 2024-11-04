@@ -1,0 +1,26 @@
+<!--TODO LIST, add dyslexic font, maybe make it a nice glass insted of a box-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>OBoy Mixer☕</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Oboy mix calculator</h1>
+        <label for="milkAmount">Enter amount of milk (Liters):</label>
+        <input type="number" id="milkAmount" step="0.1" placeholder="example 0.5 or 1">
+        <button id="calculate">Calculate</button>
+        <button id="dyslexicMode" class="dyslexic-button">Dyslexic (WIP)</button>
+        
+        <div id="result" class="result"></div>
+        <div id="glass" class="glass">
+            <div class="oboy-fill"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
